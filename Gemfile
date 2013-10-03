@@ -44,6 +44,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+#gems added
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'cucumber-rails', :require => false
@@ -55,3 +57,7 @@ group :development, :test do
   gem 'wkhtmltopdf-binary'
   gem 'email_spec'
 end
+
+#user autenticate  http://guides.railsgirls.com/devise/
+gem 'devise'
+

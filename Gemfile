@@ -43,3 +43,15 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'	
+  gem 'factory_girl'	
+  gem 'factory_girl_rails'
+  gem 'shoulda-matchers'
+  #gem using to create pdf in this project only local
+  gem 'wkhtmltopdf-binary'
+  gem 'email_spec'
+end
